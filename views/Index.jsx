@@ -1,6 +1,6 @@
 const React = require('react')
 const Default = require('./layouts/Default')
-index (({breads}) => {
+function index ({breads}){
     return (
         <Default>
             <head>
@@ -23,6 +23,5 @@ index (({breads}) => {
             </ul>
         </Default>
     )
-})
-
-module.exports = Index
+}
+module.exports = index
